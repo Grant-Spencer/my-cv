@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-cv';
+  title = 'My Resume';
+  name = 'Grant Spencer';
+  address = '123 Easy St'
+  phone = '555-555-5555';
+  email = 'Grant@email.com';
+
+  displayWork = true;
+  displayEdu = true;
+
 }
